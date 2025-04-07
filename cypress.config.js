@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'seu-project-id',
   e2e: {
     defaultCommandTimeout: 8000,
     viewportWidth: 1280,
@@ -16,6 +17,7 @@ module.exports = defineConfig({
         html: true,
         json: false,
         timestamp: "mmddyyyy_HHMMss"
+        
     },
    
   }
